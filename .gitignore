@@ -1,3 +1,5 @@
 /vendor/
 /phpunit.xml
 /.env
+/test/coverage/
+/test/log/

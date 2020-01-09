@@ -1,9 +1,9 @@
 <?php
 
-namespace Dhii\EventDispatcher\Test\Unit;
+namespace Dhii\Events\Test\Unit\Dispatcher;
 
 use PHPUnit\Framework\MockObject\MockObject;
-use Dhii\EventDispatcher\EventDispatcherInterface as TestSubject;
+use Dhii\Events\Dispatcher\EventDispatcherInterface as TestSubject;
 use PHPUnit\Framework\TestCase;
 
 class EventDispatcherInterfaceTest extends TestCase

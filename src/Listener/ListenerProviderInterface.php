@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Dhii\EventDispatcher;
+namespace Dhii\Events\Listener;
 
 use Traversable;
 

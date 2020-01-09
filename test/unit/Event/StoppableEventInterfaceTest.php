@@ -1,10 +1,10 @@
 <?php
 
-namespace Dhii\EventDispatcher\Test\Unit;
+namespace Dhii\Events\Test\Unit\Event;
 
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
-use Dhii\EventDispatcher\StoppableEventInterface as TestSubject;
+use Dhii\Events\Event\StoppableEventInterface as TestSubject;
 
 class StoppableEventInterfaceTest extends TestCase
 {

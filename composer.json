@@ -1,5 +1,5 @@
 {
-    "name": "psr/event-dispatcher",
+    "name": "dhii/event-dispatcher-interface",
     "description": "Standard interfaces for event handling.",
     "type": "library",
     "keywords": ["psr", "psr-14", "events"],
@@ -8,6 +8,11 @@
         {
             "name": "PHP-FIG",
             "homepage": "http://www.php-fig.org/"
+        },
+        {
+            "name": "Anton Ukhanev",
+            "email": "xedin.unknown@gmail.com",
+            "role": "Developer"
         }
     ],
     "require": {
@@ -18,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Psr\\EventDispatcher\\": "src/"
+            "Dhii\\EventDispatcher\\": "src/"
         }
     },
     "extra": {

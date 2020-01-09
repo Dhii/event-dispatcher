@@ -1,10 +1,10 @@
 <?php
 
-namespace Psr\EventDispatcher\Test\Unit;
+namespace Dhii\EventDispatcher\Test\Unit;
 
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
-use Psr\EventDispatcher\ListenerProviderInterface as TestSubject;
+use Dhii\EventDispatcher\ListenerProviderInterface as TestSubject;
 
 class ListenerProviderInterfaceTest extends TestCase
 {

@@ -6,9 +6,3 @@ services:
       container_name: "${PROJECT_NAME}_php"
       volumes:
           - ${BASE_DIR}:/srv
-
-  composer:
-      image: composer:1.2.2 # This version of the Composer image roughly corresponds to the target PHP version
-      container_name: "${PROJECT_NAME}_composer"
-      volumes:
-      - ${BASE_DIR}:/app

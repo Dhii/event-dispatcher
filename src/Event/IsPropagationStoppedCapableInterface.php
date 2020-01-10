@@ -10,7 +10,7 @@ namespace Dhii\Events\Event;
  * is marked as stopped after each listener is called.  If it is then it should
  * return immediately without calling any further Listeners.
  */
-interface StoppableEventInterface
+interface IsPropagationStoppedCapableInterface
 {
     /**
      * Is propagation stopped?

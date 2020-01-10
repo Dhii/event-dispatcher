@@ -4,9 +4,9 @@ namespace Dhii\Events\Test\Unit\Event;
 
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
-use Dhii\Events\Event\StoppableEventInterface as TestSubject;
+use Dhii\Events\Event\IsPropagationStoppedCapableInterface as TestSubject;
 
-class StoppableEventInterfaceTest extends TestCase
+class IsPropagationStoppedCapableInterfaceTest extends TestCase
 {
     /**
      * Creates a new instance of the test subject.

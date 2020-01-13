@@ -51,9 +51,9 @@ For `EventDispatcherInterface` implementations, all that needs to be done is the
 `object` type-hint from the signature of `dispatch()`. It would therefore become `mixed`, and
 thus would allow it to accept an object, while being compatible with earlier PHP versions.
 
-Nothing needs to be done for `IsPropagationStoppedCapableInterface` implementations.
-
-
+For the `StoppableEventInterface` implementations, they need to declare implementation of
+`IsPropagationStoppedCapableInterface`, as this is a more correct name. The re-name was primarily
+to avoid conflict with an actual `StoppableEventInterface`, which is a specialization of an actual `EventInterface`.
 
 
 [event-dispatcher]: https://github.com/php-fig/event-dispatcher/

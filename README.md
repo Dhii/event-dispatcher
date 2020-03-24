@@ -1,7 +1,7 @@
 Event Dispatcher
 ==============
 
-[![Build Status](https://travis-ci.org/Dhii/event-dispatcher-interface.svg?branch=develop)](https://travis-ci.org/Dhii/event-dispatcher-interface)
+[![Build Status](https://travis-ci.com/Dhii/event-dispatcher-interface.svg?branch=develop)](https://travis-ci.org/Dhii/event-dispatcher-interface)
 
 PHP 7.0 compatible event dispatcher interfaces.
 

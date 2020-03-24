@@ -8,19 +8,27 @@
         {
             "name": "PHP-FIG",
             "homepage": "http://www.php-fig.org/"
+        },
+        {
+            "name": "Anton Ukhanev",
+            "email": "xedin.unknown@gmail.com",
+            "role": "Developer"
         }
     ],
     "require": {
-        "php": ">=7.2.0"
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
     },
     "autoload": {
         "psr-4": {
-            "Psr\\EventDispatcher\\": "src/"
+            "Dhii\\Events\\": "src/"
         }
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.0.x-dev"
+            "dev-develop": "1.0.x-dev"
         }
     }
 }

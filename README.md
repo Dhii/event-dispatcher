@@ -12,7 +12,7 @@ This is a fork of the original [event-dispatcher][] PSR package. The aim is to m
 - Removed `object` typehint.
 - Changed `iterable` typehint to `Traversable`.
 - Renamed `StoppableEventInterface` to `IsPropagationStoppedCapableInterface`.
-- Downgraded PHP version requirement to PHP 7.2.
+- Downgraded PHP version requirement to PHP 7.0.
 
 The releases of this package will correspond 1:1 to releases in the parent package. The API will be the same,
 with the exception of being compatible with PHP 7.0 - more permissive.

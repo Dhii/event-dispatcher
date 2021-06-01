@@ -6,15 +6,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [[*next-version*]] - YYYY-MM-DD
 ### Added
-- Quality tools.
+- Quality tools (#2).
 
 ### Removed
-- Support for PHP < 7.2.
+- Support for PHP < 7.2 (#2).
 
 ### Changed
 - Shadow interfaces now aligned with main ones (#2).
-- Allowed type of callable documented for `getListenersForEvent()` (#2).
-- Cleanup of now redundant methods.
+- Cleanup of now redundant methods (#2).
 
 ### Deprecated
 - Shadow interfaces (see readme) (#2).

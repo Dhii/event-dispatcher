@@ -15,8 +15,6 @@ interface RemoveListenerCapableInterface
      * @param string   $name     The event name.
      * @param callable $listener The listener to unregister.
      * @param int      $priority The priority of the listener.
-     *
-     * @return void
      */
-    public function removeListener(string $name, callable $listener, int $priority);
+    public function removeListener(string $name, callable $listener, int $priority): void;
 }

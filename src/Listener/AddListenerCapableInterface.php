@@ -19,8 +19,6 @@ interface AddListenerCapableInterface
      * @param int      $priority The priority of the listener in the listener queue.
      *
      * @throws Exception If problem adding.
-     *
-     * @return void
      */
-    public function addListener(string $name, callable $listener, int $priority);
+    public function addListener(string $name, callable $listener, int $priority): void;
 }

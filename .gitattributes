@@ -1,0 +1,11 @@
+tests/
+coding-style.xml
+composer.json
+composer.lock
+phpcs.xml.dist
+psalm.xml
+README.txt
+.env.example
+.travis.yml
+.gitignore
+.editorconfig

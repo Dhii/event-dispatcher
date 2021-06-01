@@ -18,5 +18,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Deprecated
 - Shadow interfaces (see readme) (#2).
 
+## [0.1.0] - 2021-06-01
+Stable release.
+
 ## [0.1.0-alpha1] - 2020-04-10
 Initial version.

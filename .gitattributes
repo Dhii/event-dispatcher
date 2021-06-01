@@ -1,11 +1,14 @@
 tests/
-coding-style.xml
+docker/
+/.github
 composer.json
 composer.lock
 phpcs.xml.dist
-psalm.xml
+phpunit.xml.dist
+psalm.xml.dist
 README.txt
 .env.example
-.travis.yml
 .gitignore
 .editorconfig
+
+* text eol=lf

@@ -7,3 +7,4 @@
 /.idea/codeStyles/
 /.idea/workspace.xml
 /.idea/dataSources.local.xml
+/.phpunit.result.cache

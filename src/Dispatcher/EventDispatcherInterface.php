@@ -1,21 +1,14 @@
 <?php
+
 declare(strict_types=1);
 
 namespace Dhii\Events\Dispatcher;
 
+use Psr\EventDispatcher\EventDispatcherInterface as PsrEventDispatcherInterface;
+
 /**
- * Defines a dispatcher for events.
+ * Temporary shadow.
  */
-interface EventDispatcherInterface
+interface EventDispatcherInterface extends PsrEventDispatcherInterface
 {
-    /**
-     * Provide all relevant listeners with an event to process.
-     *
-     * @param object $event
-     *   The object to process.
-     *
-     * @return object
-     *   The Event that was passed, now modified by listeners.
-     */
-    public function dispatch($event);
 }

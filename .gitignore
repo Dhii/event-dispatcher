@@ -1,8 +1,10 @@
 /vendor/
 /phpunit.xml
 /.env
-/test/coverage/
-/test/log/
+/tests/coverage/
+/tests/log/
 /.idea/inspectionProfiles/
 /.idea/codeStyles/
 /.idea/workspace.xml
+/.idea/dataSources.local.xml
+/.phpunit.result.cache

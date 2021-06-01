@@ -11,8 +11,4 @@ use Psr\EventDispatcher\EventDispatcherInterface as PsrEventDispatcherInterface;
  */
 interface EventDispatcherInterface extends PsrEventDispatcherInterface
 {
-    /**
-     * @inheritDoc
-     */
-    public function dispatch(object $event): object;
 }

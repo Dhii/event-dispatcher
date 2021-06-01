@@ -11,8 +11,4 @@ use Psr\EventDispatcher\StoppableEventInterface;
  */
 interface IsPropagationStoppedCapableInterface extends StoppableEventInterface
 {
-    /**
-     * @inheritDoc
-     */
-    public function isPropagationStopped(): bool;
 }
